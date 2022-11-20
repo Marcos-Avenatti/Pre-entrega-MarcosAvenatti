@@ -1,0 +1,104 @@
+div img{
+    height: 60px;
+}
+.servicios_main{
+    text-align: center;
+    align-items: center;
+}
+.main_index{
+    padding-top: 7%;
+    text-align: center;
+    background-color: rgb(252, 0, 139);
+    
+}
+.main_index p{
+    padding: 6%;
+}
+.footer_index{
+    
+    align-items: center;
+}
+.footer_index p {
+    display: flexbox;
+    justify-content: center;
+    padding-bottom: 110px;
+   
+}
+.servicios_main{
+    background-color: rgb(252, 0, 139);
+    padding-bottom: 110px;
+}
+.servicios_main p {
+    color: black;
+}
+.servicios_main{
+    background-color: rgb;
+}
+.index_img img{
+    height: 340px;
+}
+.oportunidades_img img{
+    height: 350px;
+}
+.oportunidades_main h1{
+    display: flex;
+    justify-content: center;
+}
+.oportunidades_main{
+    height: 600px;
+    background-color: rgb(252, 0, 139);
+}
+.nosotros_main{
+    height: 600px;
+    background-color: rgb(252, 0, 139);
+}
+.nosotros_main h1{ 
+    display: flex;
+    justify-content: center;
+}
+.nosotros_main p{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.oportunidades_main h1{
+    display: flex;
+    justify-content: center;
+}
+.contact-form{
+    background-color: rgb(252, 0, 139);
+    margin: 50px 250px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.contact-form h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+.contacto_main{
+    background-color: rgb(27, 27, 27);
+    padding: 40px 0px 40px;
+}
+
+main{
+    background-color: aqua;
+}
+
+@media only screen and (max-width: 600px) {
+    .main_index , .servicios_main{
+      background-color: lightblue;
+    }
+}
