@@ -8,8 +8,8 @@ div img{
 .main_index{
     padding-top: 7%;
     text-align: center;
-    background-color: rgb(252, 0, 139);
-    
+    background-color: rgba(224, 65, 152, 0.762);
+
 }
 .main_index p{
     padding: 6%;
@@ -25,14 +25,14 @@ div img{
    
 }
 .servicios_main{
-    background-color: rgb(252, 0, 139);
+    background-color: rgb(224, 65, 152, 0.762);
     padding-bottom: 110px;
 }
 .servicios_main p {
     color: black;
 }
 .servicios_main{
-    background-color: rgb;
+    background-color: rgb(224, 65, 152, 0.762);
 }
 .index_img img{
     height: 340px;
@@ -46,11 +46,11 @@ div img{
 }
 .oportunidades_main{
     height: 600px;
-    background-color: rgb(252, 0, 139);
+    background-color: rgb(224, 65, 152, 0.762);
 }
 .nosotros_main{
     height: 600px;
-    background-color: rgb(252, 0, 139);
+    background-color: rgb(224, 65, 152, 0.762);
 }
 .nosotros_main h1{ 
     display: flex;
@@ -67,7 +67,7 @@ div img{
     justify-content: center;
 }
 .contact-form{
-    background-color: rgb(252, 0, 139);
+    background-color: rgb(224, 65, 152, 0.762);
     margin: 50px 250px;
     padding: 50px;
     border-radius: 20px;
