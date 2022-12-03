@@ -1,0 +1,80 @@
+//index
+.main_index{
+    padding-top: 7%;
+    text-align: center;
+    background-color:$colorfondo;
+    padding-bottom: 20px;
+
+    p{
+        padding: 6%;
+    }
+}
+.index_img img{
+    height: 340px;
+}
+//servicios
+.servicios_main{
+    text-align: center;
+    align-items: center;
+    background-color:$colorfondo;
+    padding-bottom: 110px;
+}
+//oportunidades
+.oportunidades_main{
+    height: 600px;
+    padding-bottom: 700px;
+    background-color:$colorfondo;
+
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+}
+.oportunidades_img img{
+    height: 300px;
+    padding-left: 20px;
+}
+//nosotros
+.nosotros_main{
+    height: 600px;
+    background-color:$colorfondo;
+
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+
+    p{
+        display: flex;
+        justify-content: center;
+        text-align: center;  
+    }
+}
+//contacto
+.contacto_main{
+    background-color:$colorfondo;
+    padding: 40px 0px 220px;
+
+}
+.contact-form{  
+    background-color:$colorfondo;
+    margin: 50px 250px;
+    padding: 50px;
+    border-radius: 20px;
+
+    h1{
+        margin-bottom: 30px;
+    }
+}
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}

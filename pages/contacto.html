@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contacto</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../sass/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
@@ -30,7 +29,7 @@
                         <a class="nav-link" href="../pages/nosotros.html">nosotros</a>
                     </li>
                     <li li class="nav-item">
-                        <a class="nav-link" href="../pages/contacto.html">contacto</a>
+                        <a class="nav-link active" href="../pages/contacto.html">contacto</a>
                     </li>
                 </ul>
                 </div>
@@ -38,29 +37,34 @@
         </nav>
   </header>   
   <main class="contacto_main">
-    <div class="contact-form">
-        <form action="">
-            <h1>Contacto</h1>
-
-            <label for="fname">Nombre</label>
-            <input type="text" id="fname" name="firstname" placeholder="Su nombre..">
-
-            <label for="lname">Apellido</label>
-            <input type="text" id="lname" name="lastname" placeholder="Su apellido..">
-
-            <label for="country">Pais</label>
-            <select id="country" name="country">
-                <option value="Brasil">Brasil</option>
-                <option value="Uruguay">Uruguay</option>
-            </select>
-
-            <label for="subject">Comentarios</label>
-            <textarea id="subject" name="subject" placeholder="Deje su comentario aqui.."></textarea>
-
-            <input type="submit" value="Enviar">
-
-        </form>
-    </div>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Nombre</label>
+          <input type="text" class="form-control" id="inputEmail4" placeholder="Su nombre...">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Apellido</label>
+          <input type="text" class="form-control" id="inputPassword4" placeholder="Su apellido...">
+        </div>
+      </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">País</label>
+          <select id="inputState" class="form-control">
+            <option selected>Brasil</option>
+            <option>Uruguay</option>
+            <option>Argentina</option>
+            <option>Colombia</option>
+            <option>Venezuela</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip">Comentario</label>
+          <input type="text" class="form-control" id="inputZip" placeholder="Deje su Comentario... ">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">ENVIAR</button>
+    </form>
   </main>
   <footer>
     <div class="navbar navbar-expand-lg navbar-dark bg-dark marcola">
@@ -82,7 +86,7 @@
                   <a class="nav-link" href="../pages/nosotros.html">nosotros</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../pages/contacto.html">contacto</a>
+                  <a class="nav-link active" href="../pages/contacto.html">contacto</a>
                 </li>
               </ul>
             </div>
